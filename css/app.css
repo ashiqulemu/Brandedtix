@@ -11,15 +11,27 @@ a {
 }
 
 .txt-ternary {
-  color: #af281d !important;
+  color: #dd1f0d !important;
 }
 
 .bg-secondary {
   background: #334999 !important;
 }
 
+.bg-ternary {
+  background: #dd1f0d !important;
+}
+
+.bottomBar {
+  background: #2D2726;
+}
+
+.near-bottom {
+  background: #BAB7C7;
+}
+
 .footer-bg {
-  background: rgb(18, 32, 87) !important;
+  background: #393a3e !important;
   background-size: 100% 100%;
 }
 
@@ -137,7 +149,7 @@ html {
 }
 body {
   font-family: "proxima-nova", sans-serif;
-  background-color: #F7F8FE;
+  background-color: #212529;
 }
 
 .topbar {
@@ -178,21 +190,20 @@ body {
 .siteHeader .navCustom .nav-item .nav-link {
   margin-right: 0;
   font-family: "proxima-nova", sans-serif;
-  color: #000000;
+  color: #fff;
   padding: 8px 18px;
   border-radius: 4px;
   text-transform: capitalize;
-  font-weight: 700;
   font-size: 16px;
 }
 .siteHeader .navCustom .nav-item .nav-link:hover {
-  color: #af281d !important;
+  color: red;
 }
 .siteHeader .navCustom .nav-item .nav-link.active {
   color: #334999 !important;
 }
 .siteHeader .navCustom .nav-item .dropdown-item:hover {
-  background-color: #af281d !important;
+  background-color: #dd1f0d !important;
   color: #fff;
 }
 .siteHeader .navCustom .nav-item .dropdown-item.active {
@@ -234,12 +245,40 @@ body {
   color: #242D39 !important;
 }
 
+.tempTitle {
+  color: #dd1f0d !important;
+  font-family: system-ui, sans-serif;
+}
+
+.templates {
+  background: #BAB7C7;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.ticket-row small {
+  color: #fff;
+}
+.ticket-row .event-title {
+  font-size: 1.3rem;
+  color: #ffffff !important;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+.ticket-row .event-title:hover {
+  color: #fff !important;
+}
+
 .template-box {
   position: relative;
   display: block;
   margin-bottom: 15px;
   padding: 25px 12px 12px 12px;
   background-color: #242D39 !important;
+  border: 1px dashed #7e7766;
 }
 .template-box h5 {
   font-size: 18px;
@@ -266,7 +305,7 @@ body {
   color: #fff;
 }
 .template-box .overlay .text:hover {
-  background-color: #af281d !important;
+  background-color: #dd1f0d !important;
 }
 .template-box .circle {
   display: flex;
@@ -388,6 +427,23 @@ footer .nav-item a:hover {
   font-family: "poppins-medium";
 }
 .btn-theme:hover {
+  background: #af281d !important;
+  color: #ffffff !important;
+}
+
+.btn-theme-ternary {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ffffff;
+  background: #dd1f0d !important;
+  padding: 7px 18px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+  font-family: "poppins-medium";
+}
+.btn-theme-ternary:hover {
   background: #af281d !important;
   color: #ffffff !important;
 }
