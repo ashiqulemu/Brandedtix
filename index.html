@@ -402,12 +402,9 @@
 
     <section class="bg-dark py-5 ">
         <div class="container">
-            <div class="row text-center vh-50  display-3 d-flex align-items-center justify-content-center">
+            <div class="row text-center vh-25  display-3 d-flex align-items-center justify-content-center">
                 <div class="text-light fw-bold">
-                     Your VIP Pass to Memorable Moments, <br></h1>
-                
-                   One Ticket at a Time
-                 
+                    Your VIP Pass to Memorable Moments, <br> One Ticket at a Time</h1>
                 </div>
             </div>
         </div>
@@ -634,6 +631,45 @@
         </div>
     </section>
 
+
+    <section class="dark py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <h1 class="text-light text-center">Step into a World of Events with <span
+                        class="txt-ternary fw-bold">Brandedtix!</span> <br> Your Pass to Exceptional Experiences</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/left.jpg" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/right.jpg" class="img-fluid w-100" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 near-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center d-flex align-items-center justify-content-center">
+                    <div class=" ">
+                        <h1 class="text-dark text-uppercase fw-bold">
+                            <span class="txt-ternary ">Subscribe!</span>
+                            to hear the
+                            latest news!
+                        </h1>
+                        <a class="d-block" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Subscribe">
+                            <img src="./images/mail-box-icon.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <footer class="py-3 px-4 footer-bg">
         <div class="container">
             <div class="mt-4">
@@ -684,6 +720,11 @@
     <script type="text/javascript">
 
         $(document).ready(function () {
+
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
 
             $('.testimonial').slick({
                 centerMode: true,
